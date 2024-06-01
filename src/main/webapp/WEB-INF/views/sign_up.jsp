@@ -178,7 +178,7 @@
 				<div class="col-md-6">
 					<div class="row last-right">
 						<div class="col-md-1"></div>
-						<div class="col-md-3">@2022Tfood</div>
+						<div class="col-md-3">@2024Tfood</div>
 						<div class="col-md-4"><a href="#!">Câu hỏi thường gặp</a></div>
 						<div class="col-md-4"><a href="#!">Chính sách bảo mật</a></div>
 					</div>

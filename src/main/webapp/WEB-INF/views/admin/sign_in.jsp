@@ -125,7 +125,7 @@
 		<div class="container">
 			<div class="row">
 				<h1 class="txt-tfood">TFOOD</h1>
-				<p style="text-align:right"><a target="_blank" class="btn btn-dark" href="http://fb.com/t.a.t.14.08">@2022 by T.A.T</a></p>
+				<p style="text-align:right"><a target="_blank" class="btn btn-dark" href="http://fb.com/t.a.t.14.08">@2024 by T.A.T</a></p>
 				<hr class="hr-footer">
 				
 			</div>

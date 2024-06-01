@@ -179,27 +179,6 @@
 					</table>
 				</div>
 				
-				<!-- <div class="container">
-					<div class="row">
-						<div class="messages" id="messages">
-							<div style="padding: 10px;border-bottom: 1px solid black;">
-								<b style="margin-top: 10px;">Bạn có chắc muốn xóa?</b>	
-								<a href="" style="position: absolute;right: 0;margin-right: 5px;color: black;font-weight: bold;padding: 5px;top: 0;">X</a>
-							</div>
-							<p style="">Tên món ăn!</p>	
-							<div class="row" style="text-align: center;padding: 10px;margin-top: 0px;">
-								<div class="col-md-4">
-									<a href="deleteCategory?id=" class="btn btn-danger" id="btn-a">Có</a>
-								</div>
-								<div class="col-md-4"></div>
-								<div class="col-md-4">
-									<a href="" class="btn btn-primary" id="btn-a">Hủy</a>
-								</div>
-							</div>
-						</div>
-							
-					</div>
-				</div> -->
 			
 			</div>
 		</div>

@@ -89,7 +89,8 @@ public class AdminController {
 		if(AdminController.adminId < 0) {
 			return "admin/sign_in";
 		}else {
-			notify = "logged";model.addAttribute("notify", AdminController.notify);
+			notify = "logged";
+			model.addAttribute("notify", AdminController.notify);
 			return "redirect:/admin/";
 		}	
 	}
