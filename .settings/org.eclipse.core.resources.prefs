@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/food.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/not_found_ordercode.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/search_category.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/check_out.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/check_out2.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/custommer/view_my_order_success.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/sign_up.jsp=UTF-8
+encoding//src/main/webapp/resources/css/home_style.css=UTF-8
+encoding/<project>=UTF-8

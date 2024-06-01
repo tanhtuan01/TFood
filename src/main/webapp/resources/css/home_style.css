@@ -1,0 +1,426 @@
+:root{
+	--mainColor: #17a2c6;
+	--textColor: white;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: initial;
+}
+img{
+	object-fit: fill;
+}
+.top-bar{
+	width: 100%;
+	padding: 10px;
+	background: var(--mainColor);
+}
+.top-bar a{
+	text-decoration: none;
+}
+.top-bar a.phone{
+	color: white;
+}
+span{
+	display: inline-block;
+}
+.sign{
+	color: white;
+}
+.sign:hover{
+	color: black;
+}
+
+/*Form*/
+.form-cart{
+	padding: 20px;
+	text-align: center;
+}
+.cart{
+	text-align: left;
+}
+option:checked{
+	color: black;
+	background: silver;
+}
+hr{
+	padding: 0px;
+	margin: 0px;
+}
+/* first category */
+.first-category{
+	padding: 10px;
+	background: #17a2c6;
+	height: 50px;
+}
+.first-category .row .col-md-8 ul {
+	margin-bottom: 0px;
+}
+.first-category .row .col-md-8 ul li{
+	height: 100%;
+}
+
+.first-category .row .col-md-8 ul li{
+	text-align: left;
+	display: inline-block;
+	margin-left: 70px;
+	margin-bottom: -10px;
+	color: white;
+}
+.first-category .row .col-md-8 ul li:hover{
+	color: yellow;
+}
+.menu1 a li{
+	height: 100%;
+}
+/*Category*/
+.category ul li{
+	list-style: none;
+	padding: 3px;
+	border-bottom: 1px solid #17a2c6;
+	margin-left: -30px;
+	box-shadow: 2px 2px 8px silver;
+}
+.category ul a{
+	text-transform: uppercase;
+}
+.category ul li:hover{
+	color: black;
+}
+.category-slide{
+	max-height: 320px;
+
+}
+.category ul{
+	max-height: 320px;
+	overflow-y: auto;
+}
+:is(.category ul)::-webkit-scrollbar{
+	width: 0px;
+}
+/*Slide*/
+.slide img{
+	object-fit: fill;
+	width: 100%;
+	height: 300px;
+	border-top:1px solid #17a2c6;
+	border-bottom:1px solid #17a2c6;
+}
+/*Ads*/
+.avt{
+	height: 300px;
+	width: 100%;
+	border:1px solid #17a2c6;
+}
+
+/*Product*/
+.product{
+	margin-top: 20px;
+}
+
+.top-self{
+	/*background: linear-gradient(to right, #2EFEF7, #17a2c6);*/
+	background: #17a2c6;
+	text-align: center;
+	padding: 5px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	position: relative;
+
+}
+.top-self-2{
+	position: absolute;
+	/*background: linear-gradient(to right, #17a2c6, #2EFEF7);*/
+	background: #17a2c6;
+	/*background: #2EFEF7;*/
+	top: 0;
+	left: 0;
+	z-index: 200;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+	font-weight: bold;
+	color: white;
+}
+.title{
+	color: #17a2c6;
+	font-weight: bold;
+}
+/*Items*/
+.items{
+	width: 22%;
+	margin: 12px;
+	height: 310px;
+	position: relative;
+	margin-bottom: 15px;
+}
+.selling{
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(to right, #2EFEF7, #17a2c6);
+	margin-top: -5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	border-radius: 50px;
+}
+.selling h5{
+	margin-top: 12px;
+	text-align: center;
+	color: white;
+}
+.view{
+	width: 66%;
+}
+.add-to-cart{
+	width: 30%;
+}
+.product-img{
+	width: 100%;
+	height: 200px;
+}
+.items .product-name, .items .product-price{
+	text-align: center;
+	font-weight: 500;
+
+}
+.old-price{
+	color: red;
+}
+.new-price{
+	color: #17a2c6;
+}
+.product-name{
+	font-weight: bold;
+	color: #17a2c6;
+}
+.all-product{
+	max-height: 1408px;
+	height: 1408px;
+	overflow-y: auto;
+}
+
+.policy{
+	padding: 15px;
+	background: #17a2c6;
+	text-align: center;
+	margin-left: 10px;
+	width: 24%;
+	color: white;
+}
+
+.social{
+    position: fixed;
+    margin-top: 60vh;
+    top: 0;
+    left: 0;
+    z-index: 200;
+   
+}
+.icon i{
+	padding: 15px;
+	background: #17a2c6;
+	text-align: center;
+	width: 50px;
+	margin-bottom: 2px;
+}
+.icon a{
+	color: black;
+}
+.icon a:hover{
+	background: #01DFD7;
+}
+
+.quote{
+	margin: 10px 0px 10px 0px;
+	border-bottom: 1px solid #17a2c6;
+	border-right: 1px solid #17a2c6;
+	box-shadow: 2px 2px 8px silver;
+}
+.quote h5{
+	margin-top: 10px;
+}
+.quote img{
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	display: block;
+	margin: auto;
+	padding:10px;
+}
+
+.footer{
+	background: #17a2c6;
+	margin-top: 40px;
+}
+.txt-tfood, .txt-tfood2{
+	/*color: #2EFEF7;
+    text-shadow: -1px 0 0 #17a2c6, 1px 1px 0 #000000,
+             2px -1px 0 #17a2c6, 3px 0 0 #000000;*/
+    color: #17a2c6;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+             font-size: 60px;
+             padding: 20px;
+}
+.txt-tfood2{
+	padding:0px;font-size:40px;
+}
+.p-sign{
+	margin-top: 20px;
+}
+.hr-footer{
+	color: white;
+}
+.before-last, .before-last a{
+	color: white;
+}
+.before-last a:hover{
+	color: black;
+}
+.app-download{
+	height: 70px;
+	width: 180px;
+}
+.last-right, .last-right a{
+	color: white;
+}
+.last-right a:hover{
+	color: black;
+}
+iframe{
+	height: 200px;
+}
+
+
+/*Profile.html*/
+.profile{
+	max-height: 600px;
+	overflow-y: auto;
+	height: 600px;
+}
+/*Cart html*/
+.table{
+	width: 100%;
+}
+.table tr{
+	border-bottom: 1px solid #17a2c6;
+	border-right: 1px solid #17a2c6;
+	box-shadow: 2px 2px 8px silver;
+}
+.table .top-bar{
+	background: var(--mainColor);/*#24d5e1*/
+}
+.table .img{
+	width: 25%;
+}
+.table .img img{
+	width: 100%;
+	height: 100px;
+}
+.table .food-name{
+	width: 30%;
+} 
+.table .food-quantity{
+	width: 10%;
+	text-align: center;
+}
+.table .food-price{
+	width: 10%;
+	
+}
+.table .food-total-price{
+	width: 15%;
+	text-align: center;
+}
+.table .action{
+	text-align: center;
+	width: 10%;
+}
+.fa-viber{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.tk-users{
+	display: none;
+}
+
+.view-menu ul li{
+	display: inline-block;
+	padding: 20px;
+}
+/*Thiết lập style cho ranger slider*/
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/*Thiết kế phần để kéo trượt trong rangerslider -- dùng -webkit- để chạy trên Chrome, Opera, Safari, Edge*/
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: DodgerBlue;
+  cursor: pointer;
+}
+
+/*-moz- dùng để thiết kế rangerslider trên firefox nhé*/
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.comment{
+	max-height: 650px;
+	overflow-y: auto;
+	border-top: 1px solid black;
+	margin-top:30px;
+}
+.writeComment{
+	margin-top:20px;
+}
+/* :is(.comment)::-webkit-scrollbar{
+	width: 1px;
+} */
+
+.view-info{
+	height: 400px;
+	max-height:450px;
+}
+/* .sub-food{
+	height:220px;
+	max-height:220px;
+	overflow-y:auto;
+	overflow-x:hidden;
+} */
+:is(.sub-food)::-webkit-scrollbar{
+	width: 0px;
+} 
+
+.pay{
+	margin-top: 20px;
+}
+.district select{
+	width: 100%;
+	padding: 7px;
+	text-align: center;
+}
+
